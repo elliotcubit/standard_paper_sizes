@@ -17,9 +17,10 @@
 
 use std::fmt;
 use std::fmt::Display;
+use clap::ValueEnum;
 
 #[non_exhaustive]
-#[derive(Debug, Copy, Clone)]
+#[derive(Debug, Copy, Clone, ValueEnum)]
 pub enum Type {
     // Standard US Sizes
     UsLetter,  // Same as AnsiA

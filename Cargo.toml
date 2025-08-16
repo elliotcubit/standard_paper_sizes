@@ -1,9 +1,12 @@
 [package]
 name = "standard_paper_sizes"
-version = "1.0.0"
+version = "1.1.0"
 edition = "2024"
 license = "GPL-3.0-or-later"
 description = "Standard paper sizes for printing"
 repository = "https://github.com/elliotcubit/standard_paper_sizes"
 readme = "README.md"
 keywords = ["printing", "paper", "a4", "letter", "envelope"]
+
+[dependencies]
+clap = { version = "4.5.45", features = ["derive"] }
